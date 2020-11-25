@@ -1,2 +1,2 @@
 # responsive_design
-There is a problem with slider controls, their must be at the bottom of the slider
+Web page design for companies (engineering specifically) using HTML, CSS, JS, and Bootstrap (to make it more responsive).
