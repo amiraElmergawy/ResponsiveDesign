@@ -394,13 +394,13 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.js"></script>
-    <script src="js/form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();
         $(document).ready(function () {
             // Activate Carousel
             $("#myCarousel").carousel();
-
+            
             // Enable Carousel Indicators
             $(".item1").click(function () {
                 $("#myCarousel").carousel(0);
@@ -411,7 +411,7 @@
             $(".item3").click(function () {
                 $("#myCarousel").carousel(2);
             });
-
+            
             // Enable Carousel Controls
             $(".carousel-control-prev").click(function () {
                 $("#myCarousel").carousel("prev");
@@ -420,7 +420,8 @@
                 $("#myCarousel").carousel("next");
             });
         });
-    </script>
+        </script>
+        <script src="js/form.js"></script>
 
 </body>
 
