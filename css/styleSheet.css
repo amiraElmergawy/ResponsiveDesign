@@ -1,0 +1,113 @@
+/* .container{
+    background-color: var(--gray);
+}*/
+/*
+ body {
+    height: 2000px;
+} */
+/*
+.content {
+    border: 2px solid black;
+}
+
+img {
+    width : 100%;
+    height: 300px;
+}
+
+p {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+} */
+/* .container-fluid{
+    margin: 5%;
+} */
+
+.yellow{
+    background-color: #fecb10;
+}
+
+div[class="col-6"]{
+    display: flex;
+    justify-content: space-around;
+}
+
+div[class="col-3 offset-3"]{
+    display: flex;
+    justify-content: space-around;
+}
+div[class="col-3 offset-3"] i{
+    font-size: larger;
+}
+div[class^="navbar-brand"] span:first-child{
+    color: #fecb10;
+    font-size: xx-large;
+    font-family: 'Viga', sans-serif;
+}
+div[class^="navbar-brand"] span:nth-child(2){
+    font-family: 'Satisfy', cursive;
+}
+div[class^="navbar-brand"]{
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 100%;
+    height: 300px;
+}
+
+.white {
+    color: whitesmoke;
+}
+.yellowColor{
+    color: #fecb10;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    padding: 5%;
+    margin-bottom: 5%;
+    /* margin-left: 35px; */
+    border: 10px solid #fe9710;
+    box-shadow: 10px 10px 5px #fbff23, -10px -10px 5px #fbff23;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* outline: 5px solid #fbff23 ; */
+}
+.icon img{
+    width: 64px;
+    height: 64px;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.icon ~ p, .icon + h6{
+    padding: 5%;
+
+    /* width: 120px; */
+}
+.overlay {
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    /* overflow: hidden; */
+}
+.last{
+    background-image: url("../images/bg.jpeg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.alien{
+    width: 64px;
+    height: 64px;
+}
+.alien img{
+    width: 64px;
+    height: 64px;
+}
+
+/* span {
+    font-size: larger;
+} */
